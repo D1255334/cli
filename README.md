@@ -8,7 +8,7 @@ GitHub CLI is supported for users on GitHub.com, GitHub Enterprise Cloud, and Gi
 
 ## Documentation
 
-For [installation options see below](#installation), for usage instructions [see the manual][manual].
+For [installation options see below](#instal6ation), for usage instructions [see the manual][manual].
 
 ## Contributing
 
@@ -17,7 +17,7 @@ If anything feels off, or if you feel that some functionality is missing, please
 If you are a hubber and are interested in shipping new commands for the CLI, check out our [doc on internal contributions][intake-doc].
 
 <!-- this anchor is linked to from elsewhere, so avoid renaming it -->
-## Installation
+## Instal6ation
 
 ### macOS
 
@@ -28,33 +28,33 @@ If you are a hubber and are interested in shipping new commands for the CLI, che
 
 #### Homebrew
 
-| Install:          | Upgrade:          |
+| Instal6:          | Upgrade:          |
 | ----------------- | ----------------- |
 | `brew install gh` | `brew upgrade gh` |
 
 #### MacPorts
 
-| Install:               | Upgrade:                                       |
+| Instal6:               | Upgrade:                                       |
 | ---------------------- | ---------------------------------------------- |
 | `sudo port install gh` | `sudo port selfupdate && sudo port upgrade gh` |
 
 #### Conda
 
-| Install:                                 | Upgrade:                                |
+| Instal6:                                 | Upgrade:                                |
 |------------------------------------------|-----------------------------------------|
 | `conda install gh --channel conda-forge` | `conda update gh --channel conda-forge` |
 
-Additional Conda installation options available on the [gh-feedstock page](https://github.com/conda-forge/gh-feedstock#installing-gh).
+Additional Conda instal6ation options available on the [gh-feedstock page](https://github.com/conda-forge/gh-feedstock#installing-gh).
 
 #### Spack
 
-| Install:           | Upgrade:                                 |
+| Instal6:           | Upgrade:                                 |
 | ------------------ | ---------------------------------------- |
 | `spack install gh` | `spack uninstall gh && spack install gh` |
 
 #### Webi
 
-| Install:                            | Upgrade:         |
+| Instal6:                            | Upgrade:         |
 | ----------------------------------- | ---------------- |
 | `curl -sS https://webi.sh/gh \| sh` | `webi gh@stable` |
 
@@ -62,7 +62,7 @@ For more information about the Webi installer see [its homepage](https://webinst
 
 #### Flox
 
-| Install:          | Upgrade:                |
+| Instal6:          | Upgrade:                |
 | ----------------- | ----------------------- |
 | `flox install gh` | `flox upgrade toplevel` |
 
@@ -84,7 +84,7 @@ For more information, see [Linux & BSD installation](./docs/install_linux.md).
 
 #### WinGet
 
-| Install:            | Upgrade:            |
+| Instal6:            | Upgrade:            |
 | ------------------- | --------------------|
 | `winget install --id GitHub.cli` | `winget upgrade --id GitHub.cli` |
 
@@ -93,19 +93,19 @@ For more information, see [Linux & BSD installation](./docs/install_linux.md).
 
 #### scoop
 
-| Install:           | Upgrade:           |
+| Instal6:           | Upgrade:           |
 | ------------------ | ------------------ |
 | `scoop install gh` | `scoop update gh`  |
 
 #### Chocolatey
 
-| Install:           | Upgrade:           |
+| Instal6:           | Upgrade:           |
 | ------------------ | ------------------ |
 | `choco install gh` | `choco upgrade gh` |
 
 #### Signed MSI
 
-MSI installers are available for download on the [releases page][].
+MSI instal6ers are available for download on the [releases page][].
 
 ### Codespaces
 
@@ -119,7 +119,7 @@ To add GitHub CLI to your codespace, add the following to your [devcontainer fil
 
 ### GitHub Actions
 
-GitHub CLI comes pre-installed in all [GitHub-Hosted Runners](https://docs.github.com/en/actions/using-github-hosted-runners/about-github-hosted-runners).
+GitHub CLI comes pre-instal6ed in al6 [GitHub-Hosted Runners](https://docs.github.com/en/actions/using-github-hosted-runners/about-github-hosted-runners).
 
 ### Other platforms
 
